@@ -1,0 +1,66 @@
+.header{
+  position: relative;
+  margin: auto;
+  margin-left: 90px;
+}
+
+.headerImg{
+  width: 100%;
+  height:600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+}
+
+
+.headerTitle{
+  position: absolute;
+  top:200px;
+  left: 200px;
+  bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.headerTitleIntro{
+  margin-top: 30px;
+  color: white;
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.headerButton{
+  margin-top: 50px;
+  margin-left: 220px;
+  display: flex;
+  color: white;
+  font-family: Quicksand;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Button1{
+  background-color: green;
+  border-radius: 6px;
+  border-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.Button2{
+  background-color: red;
+  border-radius: 6px;
+  border-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  cursor: pointer;
+}
