@@ -3,6 +3,7 @@ import './About.css'
 import { MdFastfood }from 'react-icons/md'
 import { GiMeal } from 'react-icons/gi'
 import { HiCake } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -10,8 +11,8 @@ const About = () => {
       <div className="about__container">
           <div className="about__img">
             <div className="about__img__text">
-               {/* <h2>Customer Satisfaction Is Our Main Priority</h2>
-                <a href="#" className='btn'>View Menu</a>*/}
+              <h2>Customer Satisfaction Is Our Main Priority</h2>
+                <Link to={'./products'}><a href="google.com" className='btn'>View Menu</a></Link>
             </div>
           </div>
 
@@ -28,7 +29,7 @@ const About = () => {
                   <h3>Food</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora laboriosam iste exercitationem non</p>
 
-                  <a href="#" className='btn'>View Service</a>
+                  <Link to={'./products'}><a href="google.com" className='btn'>View Service</a></Link>
               </div>
 
               <div className="box">
@@ -36,7 +37,7 @@ const About = () => {
                   <h3>Dishes</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora laboriosam iste exercitationem non</p>
 
-                  <a href="#" className='btn'>View Service</a>
+                  <Link to={'./products'}><a href="google.com" className='btn'>View Service</a></Link>
               </div>
 
               <div className="box">
@@ -44,7 +45,7 @@ const About = () => {
                   <h3>Birthdays</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora laboriosam iste exercitationem non</p>
 
-                  <a href="#" className='btn'>View Service</a>
+                  <Link to={'./products'}><a href="google.com" className='btn'>View Service</a></Link>
               </div>
             </div>
           </div>
