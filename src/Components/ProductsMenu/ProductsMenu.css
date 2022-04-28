@@ -1,0 +1,31 @@
+.products h2 {
+  text-align: center;
+  margin: 40px 0;
+  color: rgb(245, 171, 35);
+}
+
+.dishes {
+  height: auto;
+  width: 50%;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5px auto;
+}
+
+.dishes img {
+  height: 130px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .dishes {
+    width: 90%;
+  }
+
+  .dishes img {
+    height: 70px;
+  }
+}
